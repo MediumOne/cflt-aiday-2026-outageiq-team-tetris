@@ -7,7 +7,7 @@ An AI-based alarm classification and Outage prediction for the Telecom Industry.
 
 The Network Operations Center (NOC) of any telecom provider gets thousands of alarms per day from telecom network devices like routers, base stations and fibre nodes. Only a portion of these alarms are critical and can lead to a critical outage. However, the NOC team is drowned in the sheer volume of alarms.
 
-![NOC Alarms](images/noc_alarms.png)
+![NOC Alarms](images/noc-telemetry.png)
 
 ## Low-priority Alarms
 
@@ -18,7 +18,7 @@ There are several low-priority and invalid alarms like -
 3. Transient Noise (High Frequency + Instant Auto-Clear) - A single faulty event that appears for a split second and vanishes.
 4. Symptom Alarms - A single fibre node failing can cause 100 routers downstream to report "Link Down" alarms. These are symptoms, not the root cause.
 
-![Low Priority Alarms](images/low_priority_alarms.png)
+![Low Priority Alarms](images/low-priority-alarms.png)
 
 ## Consequence of Low-Priority Alarms
 
