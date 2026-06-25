@@ -27,3 +27,7 @@ These "noisy" alarms create several problems -
 1. They drown the critical alarms - NOC engineers end up chasing "flapping" links while the core router remains unattended.
 2. They cause alert fatigue - Engineers start ignoring alarms, increasing the risk of missing real outages.
 3. They impact automation - Auto-ticketing systems create duplicate tickets or noise, wasting NOC bandwidth.
+
+## Architecture
+
+![Architecture](images/hackathon.drawio.png)
